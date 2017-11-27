@@ -8,7 +8,7 @@ import {JitCompilerFactory} from "@angular/platform-browser-dynamic";
 import {DynamicComponentModule} from "./dynamic/dynamic.module";
 
 export function compilerFactory() {
-	return new JitCompilerFactory([{useJit: true}]).createCompiler()
+	return new JitCompilerFactory().createCompiler()
 }
 
 @NgModule({

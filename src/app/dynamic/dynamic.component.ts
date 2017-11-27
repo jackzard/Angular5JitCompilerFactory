@@ -14,7 +14,6 @@ export class DynamicComponent implements OnInit {
 		private FactoryProvider: DynamicComponentModule,
 		public ViewContainerRef: ViewContainerRef
 	) {
-		this.component = {}
 	}
 
 	ngOnInit() {
